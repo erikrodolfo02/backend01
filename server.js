@@ -10,7 +10,7 @@ app.post("/saudacao", (req, res) => {
   const { nome } = req.body;
 
   res.json({
-    mensagem: `Olá ${nome}, Bem vindo ao Servidor!`,
+    mensagem: `Olá ${nome}, Bem vindo(a) ao Servidor!`,
   });
 });
 
